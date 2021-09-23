@@ -1,12 +1,25 @@
+//React
 import React from 'react';
 import ReactDOM from 'react-dom';
+//Css
 import './index.css';
+
+
+//components
 import App from './App';
+import Navigation from './components/templates/navigation.js';
+import Intro from './components/intro/Intro.js';
 import reportWebVitals from './reportWebVitals';
+
+let introMessage = "Hi, I'm Julius Caezar Coros";
+
+ReactDOM.render(<Navigation />,document.getElementById('navigation'));
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <div className="Main-Container">
+    <Intro desc={introMessage}/>
+  </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
