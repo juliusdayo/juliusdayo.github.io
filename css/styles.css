@@ -1,0 +1,57 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbdb4f38-94c9-45d2-bd44-a598d94a4dc0/d4gz4lh-1fc5a06f-dc74-4cc7-bb20-8146e35ee3f6.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZGI0ZjM4LTk0YzktNDVkMi1iZDQ0LWE1OThkOTRhNGRjMFwvZDRnejRsaC0xZmM1YTA2Zi1kYzc0LTRjYzctYmIyMC04MTQ2ZTM1ZWUzZjYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nZ9DK7pHdUXRrbU6pLvU2HfJzeUAov47QwCaBzmRDlY');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 10%;
+
+}
+a{
+  color: white;
+}
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+
+#intro{
+  height:100%;
+  width: 100%;
+  margin: 10% 0% 25% 0%;
+
+
+}
+
+.dp{
+  margin-top: -10%;
+  height: 300px;
+  
+  border-radius: 50%;
+}
+
+  .about{
+    margin: 15% 3% 10% 3%;
+    height:100%;
+  }
+
+.skills{
+  margin:10% 0 10% 0;
+}
+
+ 
+
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
