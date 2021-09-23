@@ -1,27 +1,139 @@
-<!DOCTYPE html>
-<html>
+
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>Add React in One Minute</title>
+    <meta charset="utf-8"></meta>
+    <meta name="viewport">
+    <title>Julius Caezar C. Coros</title>
+
+
+
+
+
+    <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
+<link rel="stylesheet" href="css/bootstrap.css" >
+
+<script src="https://kit.fontawesome.com/5a92b2915b.js" crossorigin="anonymous"></script>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
   </head>
-  <body>
+  <body class="text-light">
+<header>
+<nav class="navbar navbar-expand-md  bg-transparent fixed-top ">
+  <a class="navbar-brand text-white" href="#">Julius Caezar C. Coros</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <h2>Add React in One Minute</h2>
-    <p>This page demonstrates using React with no build tooling.</p>
-    <p>React is loaded as a script tag.</p>
+  <div class="collapse navbar-collapse justify-content-end">
+    <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link aos-animate aos-init" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#target">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#skills">Skills</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#contact">Contact</a>
+  </li>
 
-    <!-- We will put our React component inside this div. -->
-    <div id="like_button_container"></div>
+</ul>
 
-    <!-- Load React. -->
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  </div>
+</nav>
+</header>
+
+<main role="main" class="container">
+
+  <div id="intro" name="intro" class="container introduction col-lg-12">
+    <div class="row">
+      <div class="col">
+        <h1 data-aos="fade-down" data-aos-duration="1000">HI, I'm Julius</h1>
+      
+      
+
+        <p class="lead" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">I'm a Web App Developer</p>
+      </div>
+      <div class="col img-container">
+          <img alt="Profile Photo" src="img/pho.jpg" class="dp" />
+      </div>
+    </div>
+  </div>
+ <div id="target"></div>
+  <div class="about p-5 m-5" id="about" name="about" data-aos="fade-left" data-aos-anchor=".about" data-aos-anchor-placement="top-center">
+
+      <h3>About Me</h3>
+      <p>Your resident computer geek who got his passion ignited after running his very first <i>"Hello World"</i></p>
+      <p>I've started programming since I've stumbled upon video of a particular programming language due to the mysterious algorithm of youtube. And due to a sequence of fortunate circumstances, I have found myself a job in which I never saw myself doing at this age.</p>
+      <div  data-aos="fade-left" >
+          <p><h5>What I Do</h5></p>
+          <p>Currently, I'm a back-end developer working in a team of 4 but I can do most things whether it's data processing, design or database management when the necessity arise.</p>
+          <i>"If the Docs exists, It's doable"</i>
+        </div>
+        <div  data-aos="fade-left" >
+          <p><h5>Training Finished</h5></p>
+          <p><b>Regional Lead Trainer Development Program on Web development NC III</b></p>
+      </div>
+        <div  data-aos="fade-left" >
+          <p><h5>Experience</h5></p>
+          <p>1 Year Experience in Web Development</p>
+      </div>
+
+  </div>
+  <div id="skills" class="skills p-5 " data-aos="fade-right" >
+    <div>
+      <h3>Skills</h3>
+      <ul>
+          <li><i class="fab fa-html5"></i> HTML</li>
+          <li><i class="fab fa-css3-alt"></i> CSS</li>
+          <li><i class="fab fa-js"></i> JavaScript</li>
+          <li><i class="fab fa-php"></i> PHP</li>
+          <li><i class="fas fa-database"></i> Database</li>
+          <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+      </ul>
+      </div>
+  </div>
+
+
+</main>
+<footer class="bg-dark footer position-abosolute">
+  <div id="contact" class="container justify-content-center p-4">
+      <h3>Contact</h3>
+      <div class="row">
+          <div class="col"><i class="fas fa-envelope"></i><span> ecaruscoros@gmail.com</span></div>
+          <div class="col"><i class="fas fa-address-card"></i><span> 09612176265</span></div>
+          <div class="col"><i class="fab fa-github"></i><span> JuliusDayo</span></div>
+      </div>
+
+
+  </div>
+
+</footer>
+
+
+
+<script src="node_modules/aos/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration:1200,
+    once:true
+  });
+</script>
+
+  </body>
+  <script src="jquery/dist/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.js" ></script>
+  <div id="like_button_container"></div>
+
+    
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 
-    <!-- Load our React component. -->
+  
     <script src="like_button.js"></script>
 
-
-sdasdas
-  </body>
 </html>
